@@ -17,7 +17,7 @@ public class StudentDaoImpl implements StudentDao{
 	
 	public Student getStudent(int rollnumber) {
 		Session session = this.sessionFactory.getCurrentSession();
-		Student student = (Student) session.load(Student.class, new Integer(rollnumber));
+		Student student = (Student) session.get(Student.class, new Integer(rollnumber));
 		return student;
 	}
 }
