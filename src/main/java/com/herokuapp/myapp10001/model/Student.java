@@ -23,6 +23,10 @@ public class Student implements Serializable{
 	@Column(name="name")
 	private String name;
 	
+	public Student() {
+		
+	}
+	
 	public Student(int rollnumber, String name) {
 		super();
 		this.rollnumber = rollnumber;
