@@ -46,7 +46,7 @@
 		</beans:property>
 	</beans:bean>
 	
-	<beans:bean id="studentDao" class="com.herokuapp.myapp10001.dao.StudenDaoImpl">
+	<beans:bean id="studentDao" class="com.herokuapp.myapp10001.dao.StudentDaoImpl">
 		<beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
 	</beans:bean>
 	

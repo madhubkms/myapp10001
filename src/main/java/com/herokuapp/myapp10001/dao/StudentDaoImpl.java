@@ -9,7 +9,7 @@ import com.herokuapp.myapp10001.model.Student;
 @Repository
 public class StudentDaoImpl implements StudentDao{
 
-	SessionFactory sessionFactory;
+	private SessionFactory sessionFactory;
 	
 	public void setSessionFactory(SessionFactory sessionFactory){
 		this.sessionFactory = sessionFactory;
